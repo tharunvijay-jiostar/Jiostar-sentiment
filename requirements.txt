@@ -1,0 +1,17 @@
+# JioStar Sentiment Dashboard - Dependencies
+# Install with: pip install -r requirements.txt
+
+# YouTube Data API
+google-api-python-client==2.118.0
+
+# HuggingFace sentiment model
+transformers==4.40.0
+torch==2.2.2          # CPU-only is fine; removes the need for a GPU
+
+# Streamlit dashboard
+streamlit==1.33.0
+plotly==5.20.0
+pandas==2.2.1
+
+# Utilities
+python-dotenv==1.0.1  # load API key from .env file
